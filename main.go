@@ -16,7 +16,7 @@ func handleUserCommands(bot *tgbotapi.BotAPI, update tgbotapi.Update) {
 }
 
 func main() {
-	bot, err := tgbotapi.NewBotAPI("BOT_TOKEN")
+	bot, err := tgbotapi.NewBotAPI("7776957491:AAFweHKU_MfOt1zU0z3fZE_RhONHLaqpDS0")
 	if err != nil {
 		log.Panic(err)
 	}
