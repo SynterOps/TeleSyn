@@ -23,6 +23,3 @@ jobs:
 
     - name: Build
       run: go mod download github.com/go-telegram-bot-api/telegram-bot-api/v5 && go get github.com/synternet/data-layer-sdk/pkg/user && go build main.go
-
-    - name: Test
-      run: go run -v ./...
